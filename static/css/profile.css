@@ -530,7 +530,7 @@ html, body {
     }
 
     .footer .socials a:hover {
-      color: var(--color-second, #caf312); /* Social icon hover color */
+      color: var(--color-second, #e4f312); /* Social icon hover color */
     }
 
     .footer .socials i {

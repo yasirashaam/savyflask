@@ -395,7 +395,7 @@ body{
 .upload-container label {
   display: block;
   font-size: 1rem;
-  color: #6b7280;
+  color: #806b80;
   margin-bottom: 5px;
   font-weight: 500;
   transition: color 0.3s ease; /* Smooth label color transition */

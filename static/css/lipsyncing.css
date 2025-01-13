@@ -408,7 +408,7 @@ body{
 .upload-container input[type="file"] {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid #dddddd;
   border-radius: 5px;
   background-color: #fafafa; /* Slightly lighter background */
   color: #333333;
@@ -525,7 +525,7 @@ body{
 }
 
 .open-modal-btn:hover, .resource-action-btn:hover {
-  background-color: #b3009b;
+  background-color: #b3008c;
   transform: scale(1.05);
 }
 

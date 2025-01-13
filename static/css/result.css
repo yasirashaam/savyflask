@@ -16,8 +16,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root{
-  --color-default: #004f83;
-  --color-second: #0067ac;
+  --color-default: #830083;
+  --color-second: #ac009e;
   --color-white: #fff;
   --color-body: #e4e9f7;
   --color-light: #e0e0e0;
@@ -299,7 +299,7 @@ body {
     padding: 40px;
     background: linear-gradient(135deg, #f0f2f5, #ffffff);
     transition: margin-left 0.5s ease;
-    color: #4b4e6d;
+    color: #6d4b6d;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     border-radius: 12px;
     font-family: 'Poppins', sans-serif;
@@ -374,7 +374,7 @@ body {
   
       /* Footer Styling */
       .footer {
-        background-color: var(--color-default, #333);
+        background-color: var(--color-default, #333333);
         color: var(--color-white, #fff);
         padding: 40px 0;
         text-align: center;
@@ -393,7 +393,7 @@ body {
       .footer-content p {
         font-size: 1rem;
         margin-bottom: 20px;
-        color: var(--color-light, #aaa);
+        color: var(--color-light, #aaaaaa);
       }
   
       .footer .socials {
@@ -416,7 +416,7 @@ body {
       }
   
       .footer .socials a:hover {
-        color: var(--color-second, #f39c12); /* Social icon hover color */
+        color: var(--color-second, #f3b712); /* Social icon hover color */
       }
   
       .footer .socials i {
@@ -426,7 +426,7 @@ body {
       .footer-bottom {
         margin-top: 20px;
         font-size: 0.9rem;
-        color: var(--color-light, #aaa);
+        color: var(--color-light, #aaaaaa);
       }
   
       .footer-bottom p {

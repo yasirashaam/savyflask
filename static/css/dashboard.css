@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root{
-  --color-default:#004f83;
-  --color-second:#0067ac;
-  --color-white:#fff;
-  --color-body:#e4e9f7;
+  --color-default:#46003c;
+  --color-second:#77005d;
+  --color-white:#ffffff;
+  --color-body:#f7e4f6;
   --color-light:#e0e0e0;
 }
 
@@ -306,7 +306,7 @@ body{
   flex: 1;
   padding: 30px;
   background: linear-gradient(135deg, #e9eef5, #f5f6fa);
-  color: #4b4e6d;
+  color: #6d4b67;
   font-family: 'Arial', sans-serif;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   animation: fade-in 1.2s ease;
@@ -339,7 +339,7 @@ body{
   display: block;
   width: 50px;
   height: 4px;
-  background-color: #007bff;
+  background-color: #ff00b3;
   margin: 10px auto 0;
   border-radius: 2px;
   transition: width 0.3s ease;
@@ -376,7 +376,7 @@ body{
 }
 
 .upload-section h2 {
-  color: #4b4e6d;
+  color: #6d4b68;
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 15px;
@@ -385,7 +385,7 @@ body{
 }
 
 .upload-section:hover h2 {
-  color: #0056b3; /* Change title color on hover */
+  color: #b300a4; /* Change title color on hover */
 }
 
 .upload-container {
@@ -402,7 +402,7 @@ body{
 }
 
 .upload-container label:hover {
-  color: #007bff; /* Change label color on hover */
+  color: #ff00ea; /* Change label color on hover */
 }
 
 .upload-container input[type="file"] {
@@ -411,23 +411,23 @@ body{
   border: 1px solid #ddd;
   border-radius: 5px;
   background-color: #fafafa; /* Slightly lighter background */
-  color: #333;
+  color: #333333;
   transition: all 0.3s ease;
 }
 
 .upload-container input[type="file"]:hover {
-  border-color: #007bff; /* Change border color on hover */
+  border-color: #ea00ff; /* Change border color on hover */
   background-color: #f0f0f0; /* Slightly darker background on hover */
 }
 
 .upload-container input[type="file"]:focus {
-  border-color: #0056b3; /* Darker border on focus */
+  border-color: #b3009b; /* Darker border on focus */
   outline: none;
 }
 
 .sync-button {
   padding: 12px 20px;
-  background-color: #0067ac;
+  background-color: #ac00ac;
   color: #ffffff;
   font-size: 1rem;
   font-weight: bold;
@@ -441,12 +441,12 @@ body{
 }
 
 .sync-button:hover {
-  background-color: #0056b3; /* Lighter blue on hover */
+  background-color: #b3009b; /* Lighter blue on hover */
   transform: scale(1.05);
 }
 
 .sync-button:active {
-  background-color: #004080; /* Darker shade on click */
+  background-color: #80007a; /* Darker shade on click */
   transform: scale(1);
 }
 
@@ -477,7 +477,7 @@ body{
 
 /* Adding ripple effect */
 .open-modal-btn:active {
-  background-color: #004f83; /* Slightly darker */
+  background-color: #83006d; /* Slightly darker */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   transform: translateY(2px);
 }
@@ -514,7 +514,7 @@ body{
 /* Button styling */
 .open-modal-btn, .resource-action-btn {
   padding: 12px 20px;
-  background-color: #0067ac;
+  background-color: #9e00ac;
   color: #fff;
   font-size: 1rem;
   font-weight: bold;
@@ -525,7 +525,7 @@ body{
 }
 
 .open-modal-btn:hover, .resource-action-btn:hover {
-  background-color: #0056b3;
+  background-color: #b300a4;
   transform: scale(1.05);
 }
 
@@ -553,7 +553,7 @@ body{
 }
 
 .close-btn {
-  color: #aaa;
+  color: #aaaaaa;
   font-size: 24px;
   font-weight: bold;
   position: absolute;

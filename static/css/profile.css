@@ -402,7 +402,7 @@ body{
 
 .edit-profile-button:hover,
 .save-profile-button:hover {
-    background-color: #3b3d5c;
+    background-color: #593b5c;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
@@ -488,7 +488,7 @@ html, body {
 
     /* Footer Styling */
     .footer {
-      background-color: var(--color-default, #333);
+      background-color: var(--color-default, #333333);
       color: var(--color-white, #fff);
       padding: 40px 0;
       text-align: center;

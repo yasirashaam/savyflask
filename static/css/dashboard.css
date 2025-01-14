@@ -441,7 +441,7 @@ body{
 }
 
 .sync-button:hover {
-  background-color: #b3009b; /* Lighter blue on hover */
+  background-color: #b3009b; /* Lighter purple on hover */
   transform: scale(1.05);
 }
 
@@ -485,7 +485,7 @@ body{
 /* Button focus state */
 .open-modal-btn:focus {
   outline: none;
-  box-shadow: 0 0 0 4px rgba(0, 111, 179, 0.3); /* Soft blue outline */
+  box-shadow: 0 0 0 4px rgba(179, 0, 155, 0.3); /* Soft purple outline */
 }
 
 
